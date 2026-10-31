@@ -33,14 +33,13 @@ Pelo site do GitHub:
 2. Em cada arquivo: ... (três pontinhos) -> Delete file.
    Quando a pasta fica vazia, ela some sozinha.
 3. Commit na main -> espere o check verde em Actions.
-4. Se a página estava linkada em outro site, remova o link de lá também.
 
 Apagou errado? Abra o commit e clique em Revert.
 
 --------------------------------------------------------------
  ENDEREÇO DE CADA PÁGINA
 --------------------------------------------------------------
-"url": "https://<conta>.github.io/<repositorio>/<categoria>/<nome>/"
+https://<conta>.github.io/<repositorio>/<categoria>/<nome>/
 
 --------------------------------------------------------------
  NÃO ESQUECER
