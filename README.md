@@ -2,8 +2,7 @@
 
 Um site pequeno que simula um **explorador de arquivos** retrô (vermelho + roxo).
 Ele serve de "pasta pública" para as **páginas avulsas** (tutoriais, tools, games e páginas de educação)
-que a homepage principal do CleitinhoDEV ([cleitinhodev.github.io/homepage](https://cleitinhodev.github.io/homepage/))
-mostra como **links externos**.
+que podem ser acessadas direto por aqui ou linkadas de outros sites.
 
 Cada página é independente: tem a própria pasta, o próprio `index.html` e o próprio visual.
 O explorador só lista as páginas e abre cada uma **em uma nova aba** quando você clica.
@@ -61,7 +60,7 @@ Pelo site do GitHub: abra cada arquivo da pasta → **… → Delete file** (qua
 
 A pasta `projects/exemplo/` existe só para o explorador não começar vazio. Pode apagar quando quiser.
 
-## 4. Ligar a página na homepage
+## 4. Endereço de cada página
 
 Endereço da página publicada:
 
@@ -71,17 +70,7 @@ https://<conta>.github.io/<repositorio>/<categoria>/<nome>/
 
 > Se o repositório se chamar `<conta>.github.io`, o endereço fica `https://<conta>.github.io/<categoria>/<nome>/`.
 
-Na homepage, crie `externos/<nome>.json` (veja o `TUTORIAL-ADICIONAR-EXCLUIR_IMPORTANTE.txt` de lá):
-
-```json
-{
-  "url": "https://<conta>.github.io/<repositorio>/tools/meu-conversor/",
-  "category": "tools",
-  "title": "Meu Conversor",
-  "description": "Converte imagens para WebP direto no navegador.",
-  "date": "2026-10-31"
-}
-```
+Use esse endereço para compartilhar a página ou linkar ela de qualquer outro site.
 
 ## 5. Editar o `files.json` à mão (opcional)
 
