@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Arquivos · CleitinhoDEV</title>
+  <meta name="description" content="Explorador de páginas avulsas do CleitinhoDEV: projetos, tools, games e educação.">
+  <meta name="theme-color" content="#14012b">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23a855f7' d='M1 3h5l2 2h7v9H1z'/%3E%3Cpath fill='%23ff1f4b' d='M1 6h14v8H1z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#arquivos">Pular para os arquivos</a>
+  <main class="janela" aria-label="Explorador de arquivos">
+    <header class="titulo">
+      <span class="titulo-icone" aria-hidden="true">▣</span>
+      <h1>ARQUIVOS.EXE <small>· CleitinhoDEV</small></h1>
+      <span class="titulo-botoes" aria-hidden="true"><i>_</i><i>□</i><i>×</i></span>
+    </header>
+
+    <div class="barra">
+      <button type="button" id="subir" class="btn" title="Voltar para Todos" aria-label="Voltar para Todos">↑</button>
+      <nav class="endereco" aria-label="Local atual"><span class="drive">C:\</span><span id="caminho">ARQUIVOS\</span></nav>
+      <label class="busca">
+        <span class="sr-only">Buscar arquivo</span>
+        <input id="busca" type="search" placeholder="🔍 buscar..." autocomplete="off">
+      </label>
+      <button type="button" id="modo" class="btn" aria-pressed="false" title="Alternar grade/lista" aria-label="Alternar visualização em lista">☰</button>
+    </div>
+
+    <div class="corpo">
+      <nav class="pastas" aria-label="Pastas">
+        <ul id="lista-pastas"></ul>
+      </nav>
+      <section class="area" aria-labelledby="caminho">
+        <ul id="arquivos" class="arquivos" tabindex="-1" aria-live="polite"></ul>
+        <p id="vazio" class="vazio" hidden></p>
+      </section>
+    </div>
+
+    <footer class="status">
+      <span id="contagem">carregando...</span>
+      <span id="detalhe" class="detalhe" aria-live="polite"></span>
+    </footer>
+  </main>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

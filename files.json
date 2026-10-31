@@ -1,0 +1,16 @@
+{
+  "categories": {
+    "projects": [
+      {
+        "name": "exemplo",
+        "title": "Página de exemplo",
+        "path": "projects/exemplo/",
+        "description": "Exemplo para ver o explorador funcionando. Pode apagar esta pasta.",
+        "date": "2026-10-31"
+      }
+    ],
+    "tools": [],
+    "games": [],
+    "educacao": []
+  }
+}

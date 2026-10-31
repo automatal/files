@@ -1,0 +1,53 @@
+==============================================================
+ TUTORIAL - ADICIONAR E EXCLUIR PÁGINAS (ARQUIVOS.EXE)
+==============================================================
+
+CATEGORIAS (pastas):  projects | tools | games | educacao
+
+--------------------------------------------------------------
+ ADICIONAR UMA PÁGINA
+--------------------------------------------------------------
+1. Entre na pasta da categoria (ex.: tools).
+2. Crie uma pasta nova com o nome da página:
+      tools/meu-conversor/
+   -> letras minúsculas, números e hífen. Sem espaço, sem acento.
+   -> dica: copie a pasta _modelo e renomeie.
+3. Coloque o index.html dentro dessa pasta
+   (imagens e arquivos junto, com caminhos relativos).
+4. (Opcional) project.json na mesma pasta:
+      {
+        "title": "Meu Conversor",
+        "description": "Frase curta.",
+        "date": "2026-10-31"
+      }
+5. Commit na main -> espere o check verde em Actions (1-2 min).
+
+Pelo site do GitHub:
+   pasta da categoria -> Add file -> Upload files
+   -> arraste a pasta inteira -> Commit changes
+
+--------------------------------------------------------------
+ EXCLUIR UMA PÁGINA
+--------------------------------------------------------------
+1. Abra a pasta da página (ex.: tools/meu-conversor/).
+2. Em cada arquivo: ... (três pontinhos) -> Delete file.
+   Quando a pasta fica vazia, ela some sozinha.
+3. Commit na main -> espere o check verde em Actions.
+4. Lembre de apagar também o externos/<nome>.json na homepage.
+
+Apagou errado? Abra o commit e clique em Revert.
+
+--------------------------------------------------------------
+ LIGAR NA HOMEPAGE (externos/<nome>.json)
+--------------------------------------------------------------
+"url": "https://<conta>.github.io/<repositorio>/<categoria>/<nome>/"
+
+--------------------------------------------------------------
+ NÃO ESQUECER
+--------------------------------------------------------------
+- Toda página precisa de um arquivo chamado index.html.
+- Pastas começando com _ ou . NÃO aparecem (ex.: _modelo).
+- Não precisa mexer no files.json: o Actions atualiza sozinho.
+- A pasta projects/exemplo pode ser apagada.
+- Pages: Settings -> Pages -> Source: GitHub Actions.
+==============================================================
