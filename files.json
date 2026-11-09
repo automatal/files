@@ -2,6 +2,13 @@
   "categories": {
     "projects": [
       {
+        "name": "panoraminal-tutorial",
+        "title": "Panoraminal — Tutorial",
+        "path": "projects/panoraminal-tutorial/",
+        "description": "Panoraminal tutorial",
+        "date": "2026-11-09"
+      },
+      {
         "name": "exemplo",
         "title": "Página de exemplo",
         "path": "projects/exemplo/",
