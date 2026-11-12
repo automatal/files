@@ -2,6 +2,13 @@
   "categories": {
     "projects": [
       {
+        "name": "nimcale_tutorial",
+        "title": "Nimcale 1.1.0 — Tutorial: instalar e usar",
+        "path": "projects/nimcale_tutorial/",
+        "description": "Tutorial completo do Nimcale 1.1.0: instale no Windows e no Linux, transforme uma imagem + mapa de altura em um relevo 3D para imprimir, aplique sobre objetos 3D e exporte malhas HD fechadas.",
+        "date": "2026-11-12"
+      },
+      {
         "name": "panoraminal-tutorial",
         "title": "Panoraminal — Tutorial",
         "path": "projects/panoraminal-tutorial/",
