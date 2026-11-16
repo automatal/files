@@ -2,6 +2,13 @@
   "categories": {
     "projects": [
       {
+        "name": "chromaqui-tutorial",
+        "title": "Chromaqui! — tutorial e download",
+        "path": "projects/chromaqui-tutorial/",
+        "description": "Tutorial do Chromaqui!: remova o fundo verde ou azul de vídeos e exporte com transparência (PNG, GIF, WebP, APNG, WebM, ProRes). Grátis para Windows e Linux.",
+        "date": "2026-11-15"
+      },
+      {
         "name": "nimcale_tutorial",
         "title": "Nimcale 1.1.0 — Tutorial: instalar e usar",
         "path": "projects/nimcale_tutorial/",
