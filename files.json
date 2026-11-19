@@ -32,6 +32,14 @@
     ],
     "tools": [],
     "games": [],
-    "educacao": []
+    "educacao": [
+      {
+        "name": "matriz",
+        "title": "Matriz · Academia de Matemática",
+        "path": "educacao/matriz/",
+        "description": "Estude matemática do básico ao intermediário. Exemplos passo a passo, exercícios comentados e um laboratório de gráficos em português.",
+        "date": "2026-11-19"
+      }
+    ]
   }
 }
