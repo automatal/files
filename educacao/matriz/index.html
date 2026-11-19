@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0b0f0e">
+  <meta name="description" content="Estude matemática do básico ao intermediário. Exemplos passo a passo, exercícios comentados e um laboratório de gráficos em português.">
+  <title>Matriz · Academia de Matemática</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/matriz.svg">
+  <link rel="preload" href="./assets/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./estilo.css">
+  <script defer src="./meta.js"></script>
+  <script defer src="./conteudo/fundamentos.js"></script>
+  <script defer src="./conteudo/algebra.js"></script>
+  <script defer src="./conteudo/geometria.js"></script>
+  <script defer src="./graficos.js"></script>
+  <script defer src="./contas.js"></script>
+  <script defer src="./laboratorio.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Ir ao conteúdo</a>
+<div id="shell">
+  <aside id="sidebar" class="sidebar" aria-label="Navegação de estudo"></aside>
+  <div id="shade" class="shade" hidden></div>
+  <div class="workspace">
+    <header class="topbar">
+      <div class="top-left"><button id="menu-toggle" class="icon-button menu-toggle" aria-label="Alternar menu de navegação" aria-controls="sidebar" aria-expanded="false"></button><nav id="breadcrumbs" class="breadcrumbs" aria-label="Caminho de navegação"></nav></div>
+      <div class="top-actions"><button id="search-toggle" class="search-toggle" aria-label="Buscar nas aulas"></button><span class="top-divider"></span><button id="motion-toggle" class="icon-button" type="button"></button></div>
+    </header>
+    <main id="main" tabindex="-1" class="page"></main>
+  </div>
+</div>
+<dialog id="search-dialog" class="search-dialog" aria-labelledby="search-heading">
+  <div class="search-head"><h2 id="search-heading">Buscar nas aulas</h2><button type="button" id="close-search" class="icon-button" aria-label="Fechar busca"></button></div>
+  <label class="search-input-wrap"><span id="dialog-search-icon"></span><input id="search-input" type="search" placeholder="Ex.: divisão, porcentagem, seno…" autocomplete="off" aria-label="Termo da busca"></label>
+  <div id="search-summary" aria-live="polite"></div><div id="search-results"></div>
+</dialog>
+<noscript><p>Ative o JavaScript no navegador para abrir as aulas e as simulações interativas da Matriz.</p></noscript>
+</body>
+</html>
