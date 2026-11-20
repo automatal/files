@@ -2,6 +2,12 @@
   "categories": {
     "projects": [
       {
+        "name": "framosik-tutorial",
+        "title": "Framosik · Guia de uso",
+        "path": "projects/framosik-tutorial/",
+        "date": "2026-11-20"
+      },
+      {
         "name": "chromaqui-tutorial",
         "title": "Chromaqui! — tutorial e download",
         "path": "projects/chromaqui-tutorial/",
