@@ -2,6 +2,13 @@
   "categories": {
     "projects": [
       {
+        "name": "prompchu-tutorial",
+        "title": "Prompchu — Tutorial e documentação",
+        "path": "projects/prompchu-tutorial/",
+        "description": "Guia completo do Prompchu: prompts, Biblioteca, prateleiras, bancos de dados, backups e privacidade. Disponível em dez idiomas.",
+        "date": "2026-11-22"
+      },
+      {
         "name": "framosik-tutorial",
         "title": "Framosik · Guia de uso",
         "path": "projects/framosik-tutorial/",
